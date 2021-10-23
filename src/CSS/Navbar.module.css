@@ -1,0 +1,21 @@
+.navbar{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+}
+.navbar h2:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    color: rgb(91, 205, 243);
+}
+.logo{
+    height:70px;
+    width: 70px;
+}
+.active{
+    color:rgb(83, 192, 255);
+    transform: scale(1.2);
+}

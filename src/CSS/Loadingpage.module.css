@@ -1,0 +1,100 @@
+.loadingpage{
+    background-color: black;
+    position: absolute;
+    top:15%;
+    left:10%;
+    width: 80%;
+    height: 80%;
+    z-index: 3;
+}
+.greystrip{
+    background-color: grey;
+    position: absolute;
+    top:0%;
+    left: 35%;
+    width: 65%;
+    height: 10%;
+    z-index: 4;
+}
+.reactlogo{
+    height:50px;
+    width:50px;
+}
+.loadingpage h2{
+    color:white;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+.row h2{
+    color: white;
+    margin: 0;
+    margin-left: 3% !important;
+}
+.crosslogo{
+    height: 35px;
+    width: 35px;
+    margin-left: 9%;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.column h2{
+    margin-left: 47% !important;
+}
+.row h3{
+    color: white;
+    margin: 0;
+    margin-left: 3%;
+    font-size: 24px;
+}
+@keyframes typewriter {
+    0%{
+        width:0%;
+    }
+    100%{
+        width:120%;
+    }
+}
+@keyframes typewriter2 {
+    0%{
+        width:0%;
+    }
+    100%{
+        width:11%;
+    }
+}
+@keyframes blinkcaret {
+    from{
+        border-right: 2px solid white;
+
+    }
+    to{
+        border-right: 2px solid black;
+    }
+}
+.fscript{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    width:125%;
+    animation: blinkcaret 1s linear 3,typewriter 3s linear ;
+    overflow: hidden;
+}
+.terminal{
+    border-top: 2px solid white;
+}
+.fscripttwo{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    width:0%;
+    flex-wrap: nowrap;
+    
+    animation: blinkcaret 1s linear infinite,typewriter2 2s linear forwards ;
+    animation-delay: 3s;
+    overflow: hidden;
+}
