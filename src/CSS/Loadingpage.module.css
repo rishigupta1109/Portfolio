@@ -81,7 +81,7 @@
     flex-direction: row;
     padding: 0;
     width:125%;
-    animation: blinkcaret 1s linear 3,typewriter 3s linear ;
+    animation: blinkcaret 1s linear 3,typewriter 3s steps(26)   ;
     overflow: hidden;
 }
 .terminal{
@@ -94,7 +94,7 @@
     width:0%;
     flex-wrap: nowrap;
     
-    animation: blinkcaret 1s linear infinite,typewriter2 2s linear forwards ;
+    animation: blinkcaret 1s linear infinite,typewriter2 steps(9) 2s  forwards ;
     animation-delay: 3s;
     overflow: hidden;
 }

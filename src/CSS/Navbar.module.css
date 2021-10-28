@@ -9,13 +9,13 @@
 .navbar h2:hover{
     cursor: pointer;
     transform: scale(1.2);
-    color: rgb(91, 205, 243);
+    color:  #00ffff;
 }
 .logo{
     height:70px;
     width: 70px;
 }
 .active{
-    color:rgb(83, 192, 255);
+    color: #00ffff;
     transform: scale(1.2);
 }

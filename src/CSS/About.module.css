@@ -1,0 +1,107 @@
+.about{
+    background-color: black;
+    border-top: 2px solid rgb(64, 198, 243);
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.icons{
+    height:40px;
+    width:40px;
+}
+.icons:hover{
+    transform: scale(1.2);
+    box-shadow: -4px -4px 90px 25px rgba(35,215,217,0.75);
+}
+.imgbox{
+    background-color: white;
+    border-radius: 10px;
+    margin:10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+}
+.name{
+    font-size: 700%;
+    font-weight: 900;
+    color:#7201b9;
+    text-shadow: -3px 3px 0px rgb(255 0 243), 6px -1px 0px rgb(40 190 221);
+}
+.infobox{
+    padding: 4%;
+}
+.subheading{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.statictxt{
+    color:white;
+    font-size: 250%;
+    font-weight: 700;
+}
+.dyanamictxts{
+    list-style: none;
+    color:white;
+    font-size: 250%;
+    font-weight: 700;
+   margin-left: -10px;
+  height: 90px;
+  line-height: 90px;
+  overflow: hidden;
+}
+.li{
+    margin-left: -4%;
+    list-style: none;
+    color: #17f7ff;
+    font-size: 100%;
+    font-weight: 500;
+    position: relative;
+    top: 0;
+    animation: slide 12s steps(2) infinite;
+  }
+  @keyframes slide {
+    100%{
+      top: -186px;
+    }
+  }
+  .li span{
+    position: relative;
+    margin: 5px 0;
+    line-height: 90px;
+  }
+  .li span::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top:0;
+    height: 100%;
+    width: 100%;
+    background: #000000;
+    border-left: 2px solid #00ffff;
+    animation: typing 6s steps(22) infinite;
+  }
+  @keyframes typing {
+    40%, 60%{
+      left: calc(100% + 30px);
+    }
+    100%{
+      left: 0;
+    }
+  }
+  .head{
+      color:white;
+      align-self: center;
+      font-size: 300%;
+      font-weight: 500;
+      margin-bottom: 5%;
+  }

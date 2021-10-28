@@ -1,0 +1,125 @@
+.skillsection{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    border-left:2px solid white;
+    border-right:2px solid white;
+    border-bottom:2px solid white;
+    background: black;
+    padding: 5%;
+    margin-top: 5%;
+}
+.skillimage{
+    height:120px;
+}
+.skillcircle{
+    background-color: white;
+    height: 200px;
+    width:200px;
+    border-radius: 200px;
+    margin: 20% 5%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.head{
+    color:white;
+    align-self: center;
+    font-size: 300%;
+    font-weight: 500;
+    margin-top: 2%;
+}
+.skillcontainer{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    padding: 2%;
+    border-top: 2px solid rgb(64, 198, 243);
+    background-color: black;
+}
+.outer{
+    position: absolute;
+    height: 240px;
+    width:240px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15), -6px -6px 10px -1px rgb(255 255 255 / 70%); */
+}
+.inner{
+    position: absolute;
+    height: 200px;
+    width:200px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+                inset -4px -4px 6px -1px rgba(255,255,255,0.7),
+                -0.5px -0.5px 0 rgba(255,255,255,1),
+                0.5px -0.5px 0 rgba(0,0,0,0.15),
+                0px 12px 10px -10px rgba(0,0,0,0.15); */
+
+}
+@keyframes anim {
+    100%{
+        stroke-dashoffset: 370px;
+    }
+}
+@keyframes anim1 {
+    100%{
+        stroke-dashoffset: 305px;
+    }
+}
+@keyframes anim2 {
+    100%{
+        stroke-dashoffset: 400px;
+    }
+}
+@keyframes anim3 {
+    100%{
+        stroke-dashoffset: 450px;
+    }
+}
+@keyframes anim4 {
+    100%{
+        stroke-dashoffset: 375px;
+    }
+}
+
+circle{
+    fill:none;
+    stroke:url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dashoffset: 846px;
+    stroke-dasharray: 846px ;
+}
+svg{
+    overflow: visible;
+}
+.cpp{
+    animation: anim 2s linear forwards;
+    animation-delay: 8s;
+}
+.html{
+    animation: anim1 2s linear forwards;
+    animation-delay: 6s;
+}
+.css{
+    animation: anim2 2s linear forwards;
+    animation-delay: 4s;
+}
+.js{
+    animation: anim3 2s linear forwards;
+    animation-delay: 2s;
+}
+.reactic{
+    animation: anim4 2s linear forwards;
+   
+}
