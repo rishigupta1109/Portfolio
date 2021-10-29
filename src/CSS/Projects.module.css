@@ -1,0 +1,19 @@
+.projectssection{
+    border-top:  2px solid rgb(64, 198, 243);;
+    background-color: black;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+}
+.head{
+    color:white;
+    align-self: center;
+    font-size: 300%;
+    font-weight: 500;
+    margin-bottom: 5%;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

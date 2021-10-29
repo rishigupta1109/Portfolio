@@ -1,0 +1,121 @@
+.front{
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:280px;
+    width: 350px;
+}
+.img{
+    height:175px;
+}
+.card{
+    background-color: #00000083;
+    margin: 2%;
+    padding: 1%;
+    cursor: pointer;
+    color: white;
+    border: 1px solid white;
+}
+.back{
+    height:278px;
+    width: 350px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    margin:0;
+}
+.NeonBtn{
+    font-family: consolas;
+    position: relative;
+    display: inline-block;
+    padding:15px 30px;
+    margin: 5px;
+    
+    color:rgb(185, 8, 255);
+    font-size: 20px;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    overflow: hidden;
+    cursor: pointer;
+ }
+ .NeonBtn:hover{
+ background: rgb(185, 8, 255);
+ color: white;
+ box-shadow: 0 0 5px rgb(185, 8, 255) ,0 0 25px rgb(185, 8, 255),0 0 50px rgb(185, 8, 255),0 0 200px rgb(185, 8, 255);
+ }
+ .NeonBtn span{
+     position: absolute;
+     display: block;
+ }
+ .NeonBtn span:nth-child(1){
+     top:0;
+     left :-100%;
+     width:100%;
+     height:2px;
+     background: linear-gradient(90deg,transparent,rgb(185, 8, 255));
+    animation: animate1 1s linear infinite;
+ }
+ .NeonBtn span:nth-child(2){
+     top:-100%;
+     right:0;
+     width:2px;
+     height:100%;
+     background: linear-gradient(90deg,transparent,rgb(185, 8, 255));
+    animation: animate2 1s linear infinite;
+    animation-delay: 0.25s;
+ }
+ .NeonBtn span:nth-child(4){
+     bottom:0;
+     left :-100%;
+     width:100%;
+     height:2px;
+     background: linear-gradient(90deg,transparent,rgb(185, 8, 255));
+    animation: animate4 1s linear infinite;
+    animation-delay: 0.5s;
+ }
+ .NeonBtn span:nth-child(3){
+     top:-100%;
+     left:0;
+     width:2px;
+     height:100%;
+     background: linear-gradient(90deg,transparent,rgb(185, 8, 255));
+    animation: animate3 1s linear infinite;
+    animation-delay: 0.75s;
+ }
+ @keyframes animate1{
+    0%{
+        left:-100%;
+    }
+    50%,100%{
+        left:100%;
+    }
+}
+@keyframes animate4{
+    0%{
+        left:100%;
+    }
+    50%,100%{
+        left:-100%;
+    }
+}
+@keyframes animate2{
+    0%{
+        top:-100%;
+    }
+    50%,100%{
+        top:100%;
+    }
+}
+@keyframes animate3{
+    0%{
+        top:100%;
+    }
+    50%,100%{
+        top:-100%;
+    }
+}
+

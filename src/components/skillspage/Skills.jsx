@@ -6,10 +6,10 @@ import jsIcon from "../../resources/js_icon.png";
 import reactIcon from "../../resources/React-icon.svg.png";
 const Skills = () => {
     return (
-        <div className={style.skillcontainer}>
+        <div data-aos="fade-up" className={style.skillcontainer}>
             <div className={style.head}>var skillStack;</div> 
         <div className={style.skillsection}>
-                <div className={style.skillcircle}>
+                <div data-aos="zoom-in" className={style.skillcircle}>
                     <div className={style.outer}>
                         <div className={style.inner}>
                             <img className={style.skillimage} src={cppIcon} alt="" />
@@ -25,7 +25,7 @@ const Skills = () => {
                         <circle className={style.cpp} cx="120" cy="120" r="110" strokeLinecap="round" />
                     </svg>
             </div>
-                <div className={style.skillcircle}>
+                <div data-aos="zoom-in" className={style.skillcircle}>
                 <div className={style.outer}>
                         <div className={style.inner}>
                 <img className={style.skillimage} src={htmlIcon} alt="" />
@@ -42,7 +42,7 @@ const Skills = () => {
                     </svg>
                     
             </div>
-            <div className={style.skillcircle}>
+            <div data-aos="zoom-in" className={style.skillcircle}>
                     <div className={style.outer}>
                         <div className={style.inner}>
                 <img className={style.skillimage} src={cssIcon} alt="" />
@@ -58,7 +58,7 @@ const Skills = () => {
                         <circle className={style.css} cx="120" cy="120" r="110" strokeLinecap="round" />
                     </svg>
             </div>
-            <div className={style.skillcircle}>
+            <div data-aos="zoom-in" className={style.skillcircle}>
                     <div className={style.outer}>
                         <div className={style.inner}>
                 <img className={style.skillimage} src={jsIcon} alt="" />
@@ -74,7 +74,7 @@ const Skills = () => {
                         <circle className={style.js} cx="120" cy="120" r="110" strokeLinecap="round" />
                     </svg>
             </div>
-            <div className={style.skillcircle}>
+            <div data-aos="zoom-in" className={style.skillcircle}>
                     <div className={style.outer}>
                         <div className={style.inner}>
                 <img className={style.skillimage} src={reactIcon} alt="" />

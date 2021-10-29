@@ -2,14 +2,17 @@ import style from "../../CSS/Loadingpage.module.css";
 import reactLogo from "../../resources/reactlogo.jpg";
 import cross from "../../resources/cross.png";
 import { useRef } from "react";
-const LoadingPage = () => {
-   
+const LoadingPage = (props) => {
+    let headings = ["About", "Skills", "Projects", "Contact"];
+    setTimeout(() => {
+        props.completeLoading();
+    },6000)
     let script = useRef();
     return (
-        <div className={style.loadingpage}>
+        <div data-aos="fade-up" className={style.loadingpage}>
             <div style={{alignItems:"center"}} className={style.row}>
                 <img src={reactLogo} className={style.reactlogo} alt="rl" />
-                <h2>About.jsx</h2>
+                <h2>{`${headings[props.page]}.jsx`}</h2>
                 <img src={cross} className={style.crosslogo} alt="x" />
                 <div className={style.greystrip}></div>
             </div>
@@ -27,7 +30,7 @@ const LoadingPage = () => {
                 <div className={style.column}>
                     <div className={style.fscript} ref={script}>
                         <h3 style={{color:"purple"}}>import</h3>
-                        <h3 style={{color:"lightblue"}}>About</h3>
+                        <h3 style={{color:"lightblue"}}>{`${headings[props.page]}`}</h3>
                         <h3 style={{color:"purple"}}>from</h3>
                         <h3 style={{color:"brown"}}>"Rishi"</h3>
                         <h3>;</h3>

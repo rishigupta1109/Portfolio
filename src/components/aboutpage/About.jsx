@@ -6,10 +6,10 @@ import insta from "../../../src/resources/insta.png";
 const About = () => {
     
     return (
-        <div className={style.about}>
+        <div data-aos="fade-up" className={style.about}>
             <div className={style.head}>const about;</div>
             <div className={style.row}>
-            <div className={style.photobox}>
+            <div data-aos="zoom-in" className={style.photobox}>
                 
                 <img src={pic} alt="Pic" className="pic" />
                 <div className={style.row}>
@@ -31,7 +31,7 @@ const About = () => {
                 </div>
             </div>
             <div className={style.infobox}>
-                <div className={style.name}>
+                <div data-aos="fade-left" className={style.name}>
                     Rishi Gupta
                 </div>
                 <div className={style.subheading}>

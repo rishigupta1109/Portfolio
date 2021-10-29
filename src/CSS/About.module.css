@@ -17,6 +17,7 @@
 }
 .icons:hover{
     transform: scale(1.2);
+    background-color: rgba(132, 218, 219, 0.493);
     box-shadow: -4px -4px 90px 25px rgba(35,215,217,0.75);
 }
 .imgbox{
