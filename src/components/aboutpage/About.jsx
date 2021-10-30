@@ -41,6 +41,11 @@ const About = () => {
                         <li className={style.li}><span>competitive programmer</span></li>
                     </ul>
                     </div>
+
+                <div className={style.detail}>
+                    I am a second year student persuing bachelor of engineering in electronics and telecommunication <a href="http://ietdavv.edu.in">@IETDAVV</a> .
+                    I am a coding enthusiast who likes to learn and apply things in real world.
+                </div>
                 </div>
             </div>
         </div>
