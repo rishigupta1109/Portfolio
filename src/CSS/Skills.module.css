@@ -123,3 +123,8 @@ svg{
     animation: anim4 2s linear forwards;
    
 }
+@media (max-width:1000px) {
+    .skillsection{
+        padding: 5vw;
+    }
+}

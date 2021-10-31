@@ -64,9 +64,10 @@
         width:0%;
     }
     100%{
-        width:11%;
+        width:11%; 
     }
 }
+
 @keyframes blinkcaret {
     from{
         border-right: 2px solid white;
@@ -97,4 +98,38 @@
     animation: blinkcaret 1s linear infinite,typewriter2 steps(9) 2s  forwards ;
     animation-delay: 3s;
     overflow: hidden;
+}
+@media (min-width:500px) and (max-width:1000px)  {
+    .greystrip{
+        width:30%;
+        left:70%;
+        height:8%;
+    }
+    @keyframes typewriter2 {
+        0%{
+            width:0%;
+        }
+        100%{
+            width:22vw; 
+        }
+    }
+}
+@media (max-width:500px) {
+    h3{
+        font-size: smaller !important;
+    }
+    .greystrip{
+        width:30%;
+        left:70%;
+        height:8%;
+    }
+    @keyframes typewriter2 {
+        0%{
+            width:0%;
+        }
+        100%{
+            width:15vw; 
+        }
+    }
+    
 }

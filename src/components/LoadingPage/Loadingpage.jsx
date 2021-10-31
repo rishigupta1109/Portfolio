@@ -42,9 +42,9 @@ const LoadingPage = (props) => {
                     <h2 style={{textDecoration:"underline"}}>Terminal</h2>
                 </div>
                 <div className={style.row}>
-                <div style={{width:"20%"}}>
+                
                 <h2>PS C:Portfolio &gt;</h2>
-                    </div>
+                
                    
                     <div className={style.fscripttwo}>
                         <h2>npm</h2>

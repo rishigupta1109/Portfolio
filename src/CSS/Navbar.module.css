@@ -14,8 +14,19 @@
 .logo{
     height:70px;
     width: 70px;
+    cursor: pointer;
 }
 .active{
     color: #00ffff;
     transform: scale(1.2);
+}
+@media (min-width:500px) and (max-width:1000px) {
+    h2{
+        font-size: larger;
+    }
+}
+@media (max-width:500px){
+    h2{
+        font-size: small;
+    }
 }

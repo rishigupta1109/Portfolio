@@ -92,7 +92,7 @@ const db = getDatabase(app);
                     <h3>let email= </h3> <input value={email} onChange={emailChangeHandler} type="text" name="email" id="email" />
                     </div>
                     <div className={style.row}>
-                        <h3>let message= </h3> <textarea value={message} onChange={messageChangeHandler} name="message" id="message" ></textarea>
+                        <h3>let message= </h3> <textarea value={message} rows={5} cols={20} onChange={messageChangeHandler} name="message" id="message" ></textarea>
                         </div>
                         </div>
                     <a target="_blank" className={style.NeonBtn} onClick={clickHandler} >Drop message<span></span><span></span><span></span><span></span></a>

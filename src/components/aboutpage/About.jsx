@@ -11,7 +11,7 @@ const About = () => {
             <div className={style.row}>
             <div data-aos="zoom-in" className={style.photobox}>
                 
-                <img src={pic} alt="Pic" className="pic" />
+                <img src={pic} alt="Pic" className={style.pic} />
                 <div className={style.row}>
                     <div className={style.imgbox}>
                         <a href="https://www.linkedin.com/in/rishi-gupta-027298204" rel="noreferrer" target="_blank">
