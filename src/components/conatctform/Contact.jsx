@@ -45,7 +45,10 @@ const db = getDatabase(app);
                     "email": email,
                     "message":message
                 });
-                alert("Reached to Me")
+                alert("Reached to Me");
+                setName("");
+                setEmail("");
+                setMessage("");
            }
             catch (err) {
                 alert(err);

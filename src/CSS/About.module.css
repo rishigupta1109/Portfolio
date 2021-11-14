@@ -12,7 +12,7 @@
     justify-content: center;
     align-items: flex-start;
   }
-  @media (max-width:1000px) {
+  @media (max-width:1200px) {
     .row{
       justify-content: center;
       flex-wrap: wrap;
@@ -31,15 +31,18 @@
     flex-direction: column;
   }
 }
-@media (max-width:360px) {
+@media (max-width:436px) {
     .name{
-      font-size: 300% !important;
+      font-size: 250% !important;
     }
     .statictxt,.dyanamictxts{
-      font-size: 120% !important;
+      font-size: 90% !important;
     }
     .detail{
       font-size: smaller !important;
+    }
+    .head{
+      font-size: 200%;
     }
     
 }
