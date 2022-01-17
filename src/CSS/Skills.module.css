@@ -105,11 +105,11 @@ svg{
 }
 .cpp{
     animation: anim 2s linear forwards;
-    animation-delay: 8s;
+    animation-delay: 0s;
 }
 .html{
     animation: anim1 2s linear forwards;
-    animation-delay: 6s;
+    animation-delay: 2s;
 }
 .css{
     animation: anim2 2s linear forwards;
@@ -117,14 +117,59 @@ svg{
 }
 .js{
     animation: anim3 2s linear forwards;
-    animation-delay: 2s;
+    animation-delay: 6s;
 }
 .reactic{
-    animation: anim4 2s linear forwards;
-   
+    animation: anim4 2s 8s linear forwards;
+    -webkit-animation: anim4 2s 8s linear forwards;
 }
 @media (max-width:1000px) {
     .skillsection{
         padding: 5vw;
     }
+}
+@media (max-width:436px) {
+   
+    .head{
+      font-size: 200% !important;
+    }
+    
+}
+.skillcircle{
+    position: absolute;
+    opacity: 0 ;
+}
+@keyframes pushing {
+    0%{  position: relative;
+        top:-400px;
+        opacity: 0;
+    }
+   
+    100%{   position: relative;
+        opacity: 1;
+        top:0px;
+    }
+}
+
+
+.skillsection .skillcircle:nth-child(1){
+    animation: pushing  2s 0s forwards;
+    -webkit-animation: pushing  2s 0s forwards;
+}
+.skillsection .skillcircle:nth-child(2){
+    animation: pushing 2s 2s forwards;
+    -webkit-animation: pushing 2s 2s forwards;
+}
+.skillsection .skillcircle:nth-child(3){
+    animation: pushing 2s 4s forwards;
+    -webkit-animation: pushing 2s 4s forwards;
+}
+.skillsection .skillcircle:nth-child(4){
+    animation: pushing 2s 6s forwards;
+    -webkit-animation: pushing 2s 6s forwards;
+}
+.skillsection .skillcircle:nth-child(5){
+    opacity: 0;
+    animation: pushing 2s 8s forwards;
+    -webkit-animation: pushing 2s 8s forwards;
 }

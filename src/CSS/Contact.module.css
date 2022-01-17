@@ -157,4 +157,11 @@ input[type="text"],textarea{
     color: #00ffff;
     background-color: black;
 }
+@media (max-width:436px) {
+   
+    .head{
+      font-size: 200% !important;
+    }
+    
+}
 
