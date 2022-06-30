@@ -8,140 +8,81 @@ import nodejsIcon from "../../resources/icons8-nodejs-480.png";
 import expressJSICon from "../../resources/images.png";
 import mongodbIcon from "../../resources/icons8-mongodb-480.png";
 const Skills = () => {
-    
+    const arr=[
+        {
+            img:cppIcon,
+            class:style.cpp
+        },
+        {
+            img:htmlIcon,
+            class:style.html
+        },
+        {
+            img:cssIcon,
+            class:style.css
+        },
+        {
+            img:jsIcon,
+            class:style.js
+        },
+        {
+            img:reactIcon,
+            class:style.reactic
+        },
+        {
+            img:mongodbIcon,
+            class:style.mongo
+        },
+        {
+            img:expressJSICon,
+            class:style.express
+        },
+        {
+            img:nodejsIcon                     ,
+            class:style.nodejs
+        },
+    ]
     return (
         <div data-aos="fade-up" className={style.skillcontainer}>
             <div className={style.head}>var skillStack;</div> 
         <div className={style.skillsection}>
-                <div className={style.skillcircle}>
-                    <div className={style.outer}>
-                        <div className={style.inner}>
-                            <img className={style.skillimage} src={cppIcon} alt="" />
+               {
+                arr.map((skill)=>{
+                    return (
+                      <div className={style.skillcircle}>
+                        <div className={style.outer}>
+                          <div className={style.inner}>
+                            <img
+                              className={style.skillimage}
+                              src={skill.img}
+                              alt=""
+                            />
+                          </div>
                         </div>
-                    </div>
-                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="240px" height="240px">
-                        <defs>
-                        <linearGradient id="GradientColor">
-                            <stop offset="0%" stopColor="#09ceff" />
-                             <stop offset="100%" stopColor="#673ab7" />
-                        </linearGradient>
-                        </defs>
-                        <circle className={style.cpp} cx="120" cy="120" r="110" strokeLinecap="round" />
-                    </svg>
-            </div>
-                <div className={style.skillcircle}>
-                <div className={style.outer}>
-                        <div className={style.inner}>
-                <img className={style.skillimage} src={htmlIcon} alt="" />
-                        </div>
-                    </div>
-                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="240px" height="240px">
-                        <defs>
-                        <linearGradient id="GradientColor">
-                            <stop offset="0%" stopColor="#09ceff" />
-                             <stop offset="100%" stopColor="#673ab7" />
-                        </linearGradient>
-                        </defs>
-                        <circle className={style.html} cx="120" cy="120" r="110" strokeLinecap="round" />
-                    </svg>
-                    
-            </div>
-            <div className={style.skillcircle}>
-                    <div className={style.outer}>
-                        <div className={style.inner}>
-                <img className={style.skillimage} src={cssIcon} alt="" />
-                        </div>
-                    </div>
-                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="240px" height="240px">
-                        <defs>
-                        <linearGradient id="GradientColor">
-                            <stop offset="0%" stopColor="#09ceff" />
-                             <stop offset="100%" stopColor="#673ab7" />
-                        </linearGradient>
-                        </defs>
-                        <circle className={style.css} cx="120" cy="120" r="110" strokeLinecap="round" />
-                    </svg>
-            </div>
-            <div className={style.skillcircle}>
-                    <div className={style.outer}>
-                        <div className={style.inner}>
-                <img className={style.skillimage} src={jsIcon} alt="" />
-                        </div>
-                    </div>
-                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="240px" height="240px">
-                        <defs>
-                        <linearGradient id="GradientColor">
-                            <stop offset="0%" stopColor="#09ceff" />
-                             <stop offset="100%" stopColor="#673ab7" />
-                        </linearGradient>
-                        </defs>
-                        <circle className={style.js} cx="120" cy="120" r="110" strokeLinecap="round" />
-                    </svg>
-            </div>
-            <div className={style.skillcircle}>
-                    <div className={style.outer}>
-                        <div className={style.inner}>
-                <img className={style.skillimage} src={reactIcon} alt="" />
-                        </div>
-                    </div>
-                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="240px" height="240px">
-                        <defs>
-                        <linearGradient id="GradientColor">
-                            <stop offset="0%" stopColor="#09ceff" />
-                             <stop offset="100%" stopColor="#673ab7" />
-                        </linearGradient>
-                        </defs>
-                        <circle className={style.reactic} cx="120" cy="120" r="110" strokeLinecap="round" />
-                    </svg>
-            </div>
-            <div className={style.skillcircle}>
-                    <div className={style.outer}>
-                        <div className={style.inner}>
-                <img className={style.skillimage} src={mongodbIcon} alt="" />
-                        </div>
-                    </div>
-                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="240px" height="240px">
-                        <defs>
-                        <linearGradient id="GradientColor">
-                            <stop offset="0%" stopColor="#09ceff" />
-                             <stop offset="100%" stopColor="#673ab7" />
-                        </linearGradient>
-                        </defs>
-                        <circle className={style.mongo} cx="120" cy="120" r="110" strokeLinecap="round" />
-                    </svg>
-            </div>
-            <div className={style.skillcircle}>
-                    <div className={style.outer}>
-                        <div className={style.inner}>
-                <img className={style.skillimage} src={expressJSICon} alt="" />
-                        </div>
-                    </div>
-                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="240px" height="240px">
-                        <defs>
-                        <linearGradient id="GradientColor">
-                            <stop offset="0%" stopColor="#09ceff" />
-                             <stop offset="100%" stopColor="#673ab7" />
-                        </linearGradient>
-                        </defs>
-                        <circle className={style.express} cx="120" cy="120" r="110" strokeLinecap="round" />
-                    </svg>
-            </div>
-            <div className={style.skillcircle}>
-                    <div className={style.outer}>
-                        <div className={style.inner}>
-                <img className={style.skillimage} src={nodejsIcon} alt="" />
-                        </div>
-                    </div>
-                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="240px" height="240px">
-                        <defs>
-                        <linearGradient id="GradientColor">
-                            <stop offset="0%" stopColor="#09ceff" />
-                             <stop offset="100%" stopColor="#673ab7" />
-                        </linearGradient>
-                        </defs>
-                        <circle className={style.nodejs} cx="120" cy="120" r="110" strokeLinecap="round" />
-                    </svg>
-            </div>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          version="1.1"
+                          width="240px"
+                          height="240px"
+                        >
+                          <defs>
+                            <linearGradient id="GradientColor">
+                              <stop offset="0%" stopColor="#09ceff" />
+                              <stop offset="100%" stopColor="#673ab7" />
+                            </linearGradient>
+                          </defs>
+                          <circle
+                            className={skill.class}
+                            cx="120"
+                            cy="120"
+                            r="110"
+                            strokeLinecap="round"
+                          />
+                        </svg>
+                      </div>
+                    );
+                })
+               }
             </div>
             </div>
     );
