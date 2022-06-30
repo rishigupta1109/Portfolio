@@ -4,7 +4,11 @@ import htmlIcon from "../../resources/HTML5_logo.svg.png";
 import cssIcon from "../../resources/CSS3_logo.svg.png";
 import jsIcon from "../../resources/js_icon.png";
 import reactIcon from "../../resources/React-icon.svg.png";
+import nodejsIcon from "../../resources/icons8-nodejs-480.png";
+import expressJSICon from "../../resources/images.png";
+import mongodbIcon from "../../resources/icons8-mongodb-480.png";
 const Skills = () => {
+    
     return (
         <div data-aos="fade-up" className={style.skillcontainer}>
             <div className={style.head}>var skillStack;</div> 
@@ -88,6 +92,54 @@ const Skills = () => {
                         </linearGradient>
                         </defs>
                         <circle className={style.reactic} cx="120" cy="120" r="110" strokeLinecap="round" />
+                    </svg>
+            </div>
+            <div className={style.skillcircle}>
+                    <div className={style.outer}>
+                        <div className={style.inner}>
+                <img className={style.skillimage} src={mongodbIcon} alt="" />
+                        </div>
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="240px" height="240px">
+                        <defs>
+                        <linearGradient id="GradientColor">
+                            <stop offset="0%" stopColor="#09ceff" />
+                             <stop offset="100%" stopColor="#673ab7" />
+                        </linearGradient>
+                        </defs>
+                        <circle className={style.mongo} cx="120" cy="120" r="110" strokeLinecap="round" />
+                    </svg>
+            </div>
+            <div className={style.skillcircle}>
+                    <div className={style.outer}>
+                        <div className={style.inner}>
+                <img className={style.skillimage} src={expressJSICon} alt="" />
+                        </div>
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="240px" height="240px">
+                        <defs>
+                        <linearGradient id="GradientColor">
+                            <stop offset="0%" stopColor="#09ceff" />
+                             <stop offset="100%" stopColor="#673ab7" />
+                        </linearGradient>
+                        </defs>
+                        <circle className={style.express} cx="120" cy="120" r="110" strokeLinecap="round" />
+                    </svg>
+            </div>
+            <div className={style.skillcircle}>
+                    <div className={style.outer}>
+                        <div className={style.inner}>
+                <img className={style.skillimage} src={nodejsIcon} alt="" />
+                        </div>
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="240px" height="240px">
+                        <defs>
+                        <linearGradient id="GradientColor">
+                            <stop offset="0%" stopColor="#09ceff" />
+                             <stop offset="100%" stopColor="#673ab7" />
+                        </linearGradient>
+                        </defs>
+                        <circle className={style.nodejs} cx="120" cy="120" r="110" strokeLinecap="round" />
                     </svg>
             </div>
             </div>

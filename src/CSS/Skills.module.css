@@ -119,6 +119,18 @@ svg{
     animation: anim3 2s linear forwards;
     animation-delay: 6s;
 }
+.mongo{
+    animation: anim3 2s linear forwards;
+    animation-delay: 10s;
+}
+.express{
+    animation: anim3 2s linear forwards;
+    animation-delay: 12s;
+}
+.nodejs{
+    animation: anim3 2s linear forwards;
+    animation-delay: 14s;
+}
 .reactic{
     animation: anim4 2s 8s linear forwards;
     -webkit-animation: anim4 2s 8s linear forwards;
@@ -172,4 +184,19 @@ svg{
     opacity: 0;
     animation: pushing 2s 8s forwards;
     -webkit-animation: pushing 2s 8s forwards;
+}
+.skillsection .skillcircle:nth-child(6){
+    opacity: 0;
+    animation: pushing 2s 10s forwards;
+    -webkit-animation: pushing 2s 10s forwards;
+}
+.skillsection .skillcircle:nth-child(7){
+    opacity: 0;
+    animation: pushing 2s 12s forwards;
+    -webkit-animation: pushing 2s 12s forwards;
+}
+.skillsection .skillcircle:nth-child(8){
+    opacity: 0;
+    animation: pushing 2s 14s forwards;
+    -webkit-animation: pushing 2s 14s forwards;
 }
