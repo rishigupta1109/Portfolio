@@ -1,5 +1,5 @@
 import style from "../../CSS/About.module.css";
-import pic from "../../resources/Profilephoto.png";
+import pic from "../../resources/i1.png";
 import linkedin from "../../../src/resources/linkedin.png";
 import github from "../../../src/resources/github.png";
 import insta from "../../../src/resources/insta.png";
