@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.25f486f4.chunk.css",
-    "main.js": "/Portfolio/static/js/main.51857242.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.51857242.chunk.js.map",
+    "main.js": "/Portfolio/static/js/main.d3a17f44.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.d3a17f44.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.b742714d.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.b742714d.js.map",
     "static/css/2.7fc9bc2b.chunk.css": "/Portfolio/static/css/2.7fc9bc2b.chunk.css",
@@ -34,6 +34,7 @@
     "static/media/js_icon.0eb84338.png": "/Portfolio/static/media/js_icon.0eb84338.png",
     "static/media/reactlogo.f3e576ba.jpg": "/Portfolio/static/media/reactlogo.f3e576ba.jpg",
     "static/media/rps.a4f71cf7.PNG": "/Portfolio/static/media/rps.a4f71cf7.PNG",
+    "static/media/sudokuSolver.56f4c77b.jpg": "/Portfolio/static/media/sudokuSolver.56f4c77b.jpg",
     "static/media/tbb.e1b5bf78.png": "/Portfolio/static/media/tbb.e1b5bf78.png"
   },
   "entrypoints": [
@@ -41,6 +42,6 @@
     "static/css/2.7fc9bc2b.chunk.css",
     "static/js/2.d2c4072a.chunk.js",
     "static/css/main.25f486f4.chunk.css",
-    "static/js/main.51857242.chunk.js"
+    "static/js/main.d3a17f44.chunk.js"
   ]
 }
