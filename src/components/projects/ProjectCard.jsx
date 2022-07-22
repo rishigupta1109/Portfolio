@@ -3,7 +3,7 @@ import { useState } from "react";
 const Front = (props) => {
     return (<div data-aos="flip-right" className={style.front}>
         <img src={props.img} alt={props.name} className={style.img} />
-        <h2>{props.name}</h2>
+        {/* <h2>{props.name}</h2> */}
     </div>);
 }
 const Back = (props) => {
