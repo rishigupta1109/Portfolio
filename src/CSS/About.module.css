@@ -5,9 +5,40 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    min-height: 84.8vh;
 }
 .pic{
   width: 500px;
+  /* height: 500px; */
+  -moz-box-sizing: border-box;
+  background-image: url("../resources/profile_bnw.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  background-size: contain;
+  animation: imageSwitch 2s ease 1 ;
+  animation-iteration-count: 1;
+}
+.profContainer{
+  /* width: 500px; */
+    /* height: 500px; */
+    border-radius: 500px;
+    margin-bottom: 25 px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+@keyframes imageSwitch {
+  0%{
+    background-image: url("../resources/profil_matrix_prev_ui.png");
+  }
+  100%{
+      background-image: url("../resources/profile_bnw.png");
+    }
+   
+ 
 }
 .row{
     display: flex;
@@ -141,7 +172,7 @@
     font-size: 150% !important;
   }
   .pic{
-    width:100%;
+    /* width:100%; */
   }
   .infobox{
     flex-direction: column;
@@ -168,6 +199,9 @@
     .icons{
       height:30px;
       width:30px;
+  }
+  .pic{
+    width: 91vw;
   }
     
 }
