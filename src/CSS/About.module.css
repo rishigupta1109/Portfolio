@@ -9,7 +9,7 @@
 }
 .pic{
   width: 500px;
-  /* height: 500px; */
+  height: 500px;
   -moz-box-sizing: border-box;
   background-image: url("../resources/profile_bnw.png");
   background-position: center;

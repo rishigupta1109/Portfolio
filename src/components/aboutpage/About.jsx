@@ -1,6 +1,4 @@
 import style from "../../CSS/About.module.css";
-import pic from "../../resources/i1.png";
-import ContactDetails from "../global/ContactDetails";
 const About = () => {
   return (
     <div data-aos="fade-up" className={style.about}>
@@ -8,10 +6,7 @@ const About = () => {
       <div className={style.row}>
         <div data-aos="zoom-in" className={style.photobox}>
           <div className={style.profContainer}>
-            <img
-              className={style.pic}
-              src="http://upload.wikimedia.org/wikipedia/commons/c/ce/Transparent.gif"
-            />
+            <div className={style.pic} />
           </div>
           {/* <ContactDetails /> */}
         </div>
