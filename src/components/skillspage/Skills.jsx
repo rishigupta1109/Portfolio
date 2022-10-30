@@ -7,84 +7,80 @@ import reactIcon from "../../resources/React-icon.svg.png";
 import nodejsIcon from "../../resources/icons8-nodejs-480.png";
 import expressJSICon from "../../resources/images.png";
 import mongodbIcon from "../../resources/icons8-mongodb-480.png";
+import Heading from "../global/Heading";
+
 const Skills = () => {
-    const arr=[
-        {
-            img:cppIcon,
-            class:style.cpp
-        },
-        {
-            img:htmlIcon,
-            class:style.html
-        },
-        {
-            img:cssIcon,
-            class:style.css
-        },
-        {
-            img:jsIcon,
-            class:style.js
-        },
-        {
-            img:reactIcon,
-            class:style.reactic
-        },
-        {
-            img:mongodbIcon,
-            class:style.mongo
-        },
-        {
-            img:expressJSICon,
-            class:style.express
-        },
-        {
-            img:nodejsIcon                     ,
-            class:style.nodejs
-        },
-    ]
-    return (
-        <div data-aos="fade-up" className={style.skillcontainer}>
-            <div className={style.head}>var skillStack;</div> 
-        <div className={style.skillsection}>
-               {
-                arr.map((skill)=>{
-                    return (
-                      <div className={style.skillcircle}>
-                        <div className={style.outer}>
-                          <div className={style.inner}>
-                            <img
-                              className={style.skillimage}
-                              src={skill.img}
-                              alt=""
-                            />
-                          </div>
-                        </div>
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          version="1.1"
-                          width="240px"
-                          height="240px"
-                        >
-                          <defs>
-                            <linearGradient id="GradientColor">
-                              <stop offset="0%" stopColor="#09ceff" />
-                              <stop offset="100%" stopColor="#673ab7" />
-                            </linearGradient>
-                          </defs>
-                          <circle
-                            className={skill.class}
-                            cx="120"
-                            cy="120"
-                            r="110"
-                            strokeLinecap="round"
-                          />
-                        </svg>
-                      </div>
-                    );
-                })
-               }
+  const arr = [
+    {
+      img: cppIcon,
+      class: style.cpp,
+    },
+    {
+      img: htmlIcon,
+      class: style.html,
+    },
+    {
+      img: cssIcon,
+      class: style.css,
+    },
+    {
+      img: jsIcon,
+      class: style.js,
+    },
+    {
+      img: reactIcon,
+      class: style.reactic,
+    },
+    {
+      img: mongodbIcon,
+      class: style.mongo,
+    },
+    {
+      img: expressJSICon,
+      class: style.express,
+    },
+    {
+      img: nodejsIcon,
+      class: style.nodejs,
+    },
+  ];
+  return (
+    <div data-aos="fade-up" className={style.skillcontainer}>
+      <Heading>const skillsStack;</Heading>
+      <div className={style.skillsection}>
+        {arr.map((skill) => {
+          return (
+            <div className={style.skillcircle}>
+              <div className={style.outer}>
+                <div className={style.inner}>
+                  <img className={style.skillimage} src={skill.img} alt="" />
+                </div>
+              </div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                version="1.1"
+                width="240px"
+                height="240px"
+              >
+                <defs>
+                  <linearGradient id="GradientColor">
+                    <stop offset="0%" stopColor="#09ceff" />
+                    <stop offset="100%" stopColor="#673ab7" />
+                  </linearGradient>
+                </defs>
+                <circle
+                  className={skill.class}
+                  cx="120"
+                  cy="120"
+                  r="110"
+                  strokeLinecap="round"
+                />
+              </svg>
             </div>
-            </div>
-    );
-}
+          );
+        })}
+      </div>
+    </div>
+  );
+};
 export default Skills;

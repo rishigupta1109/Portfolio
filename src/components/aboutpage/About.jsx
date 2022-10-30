@@ -1,8 +1,9 @@
 import style from "../../CSS/About.module.css";
+import Heading from "../global/Heading";
 const About = () => {
   return (
     <div data-aos="fade-up" className={style.about}>
-      <div className={style.head}>const about;</div>
+      <Heading>const about;</Heading>
       <div className={style.row}>
         <div data-aos="zoom-in" className={style.photobox}>
           <div className={style.profContainer}>

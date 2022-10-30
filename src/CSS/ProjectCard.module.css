@@ -1,34 +1,28 @@
 
-.front{
-    text-align: center;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height:250px;
-    width: 500px;
-}
+
 .img{
     height:100%;
     width:100%;
 }
 .card{
     background-color: #00000083;
-    margin: 2%;
-   
     cursor: pointer;
     color: white;
-    border: 1px solid #00ffff;
-   
+     box-shadow: 0 0px 30px rgba(255, 255, 255, 0.2);
+    margin: 20px;
+    border-radius: 10px;
 }
-.back{
-    
-    padding-top: 15px;
-    height:235px;
-    width: 500px;
+.back,.front{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    aspect-ratio: 2;
+    width: 35vw;
     text-align: center;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    margin: 15px;
 }
 h1{
     margin:0;
@@ -39,7 +33,7 @@ h1{
     display: inline-block;
     padding:15px 30px;
     margin: 5px;
-    
+    border-radius: 5px;
     color:#00ffff;
     font-size: 20px;
     transition: 0.5s;
@@ -48,81 +42,11 @@ h1{
     cursor: pointer;
  }
  .NeonBtn:hover{
- background: #00ffff;
- color: white;
- box-shadow: 0 0 5px #00ffff ,0 0 25px #00ffff,0 0 50px #00ffff,0 0 200px #00ffff;
+ background: white;
+ color: black;
+ /* box-shadow: 0 0 5px #00ffff ,0 0 25px #00ffff,0 0 50px #00ffff,0 0 200px #00ffff; */
  }
- .NeonBtn span{
-     position: absolute;
-     display: block;
- }
- .NeonBtn span:nth-child(1){
-     top:0;
-     left :-100%;
-     width:100%;
-     height:2px;
-     background: linear-gradient(90deg,transparent,#00ffff);
-    animation: animate1 1s linear infinite;
- }
- .NeonBtn span:nth-child(2){
-     top:-100%;
-     right:0;
-     width:2px;
-     height:100%;
-     background: linear-gradient(90deg,transparent,#00ffff);
-    animation: animate2 1s linear infinite;
-    animation-delay: 0.25s;
- }
- .NeonBtn span:nth-child(4){
-     bottom:0;
-     left :-100%;
-     width:100%;
-     height:2px;
-     background: linear-gradient(90deg,transparent,#00ffff);
-    animation: animate4 1s linear infinite;
-    animation-delay: 0.5s;
- }
- .NeonBtn span:nth-child(3){
-     top:-100%;
-     left:0;
-     width:2px;
-     height:100%;
-     background: linear-gradient(90deg,transparent,#00ffff);
-    animation: animate3 1s linear infinite;
-    animation-delay: 0.75s;
- }
- @keyframes animate1{
-    0%{
-        left:-100%;
-    }
-    50%,100%{
-        left:100%;
-    }
-}
-@keyframes animate4{
-    0%{
-        left:100%;
-    }
-    50%,100%{
-        left:-100%;
-    }
-}
-@keyframes animate2{
-    0%{
-        top:-100%;
-    }
-    50%,100%{
-        top:100%;
-    }
-}
-@keyframes animate3{
-    0%{
-        top:100%;
-    }
-    50%,100%{
-        top:-100%;
-    }
-}
+
 @media (max-width:550px) {
     .front,.back{
         height: 280px;

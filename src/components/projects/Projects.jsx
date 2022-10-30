@@ -9,6 +9,8 @@ import cb from "../../resources/contestbuddy.PNG";
 import av from "../../resources/algorithmvisualiser.PNG";
 import rps from "../../resources/rps.PNG";
 import ss from "../../resources/sudokuSolver.jpg";
+import Heading from "../global/Heading";
+
 const Projects = () => {
   let projectsList = [
     {
@@ -92,7 +94,7 @@ const Projects = () => {
   ];
   return (
     <div data-aos="fade-up" className={style.projectssection}>
-      <div className={style.head}>var projects;</div>
+      <Heading>const projects;</Heading>
       <div className={style.container}>
         {projectsList.map((object) => {
           return (

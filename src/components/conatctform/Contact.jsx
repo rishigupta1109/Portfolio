@@ -4,6 +4,7 @@ import { useState } from "react";
 import { initializeApp } from "firebase/app";
 import { getDatabase, ref, set } from "firebase/database";
 import ContactDetails from "../global/ContactDetails";
+import Heading from "../global/Heading";
 
 const Contact = () => {
   let [name, setName] = useState("");
@@ -60,7 +61,7 @@ const Contact = () => {
   };
   return (
     <div data-aos="fade-up" className={style.contactsection}>
-      <div className={style.head}>const contactMe;</div>
+      <Heading>const contactMe;</Heading>
       <div className={style.row}>
         <div className={style.form}>
           <h2>Connect with me on</h2>
@@ -101,7 +102,7 @@ const Contact = () => {
               <textarea
                 value={message}
                 rows={5}
-                cols={22}
+                cols={20}
                 onChange={messageChangeHandler}
                 name="message"
                 id="message"

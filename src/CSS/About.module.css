@@ -1,12 +1,12 @@
 .about{
     background-color: black;
-    border-top: 2px solid #00ffff;
     padding: 20px 20px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    min-height: 84.8vh;
+    min-height: 84.7vh;
 }
+
 .pic{
   width: 500px;
   height: 500px;
@@ -22,6 +22,8 @@
 .profContainer{
   /* width: 500px; */
     /* height: 500px; */
+    
+     box-shadow: 0 0px 30px rgba(255, 255, 255, 0.2);
     border-radius: 500px;
     margin-bottom: 25 px;
     display: flex;
@@ -49,6 +51,7 @@
   .icons{
     height:40px;
     width:40px;
+    transition: all 100ms linear;
   }
  
 
@@ -56,7 +59,7 @@
 .icons:hover{
     transform: scale(1.2);
     background-color: rgba(132, 218, 219, 0.493);
-    box-shadow: -4px -4px 90px 25px rgba(35,215,217,0.75);
+    box-shadow: 0px 0px 50px 15px rgba(35,215,217,0.75);
 }
 .imgbox{
     background-color: white;
@@ -142,11 +145,13 @@
     }
   }
   .head{
+    z-index: 1  ;
       color:white;
       align-self: center;
-      font-size: 300%;
+      font-size: 2.3rem;
       font-weight: 500;
-      margin-bottom: 2%;
+      margin-bottom: 25px;
+      margin-top: 25px;
   }
   .detail{
     color: white;
@@ -201,7 +206,11 @@
       width:30px;
   }
   .pic{
+    /* border-radius: 100%; */
+  }
+  .profContainer{
     width: 91vw;
+    border-radius: 100%;
   }
     
 }
