@@ -4,7 +4,7 @@ import CodeIcon from "@mui/icons-material/Code";
 import LinkIcon from "@mui/icons-material/Link";
 const Front = (props) => {
   return (
-    <div data-aos="flip-right" className={style.front}>
+    <div data-aos="flip-right" data-aos-duration="1000" className={style.front}>
       <img src={props.img} alt={props.name} className={style.img} />
       {/* <h2>{props.name}</h2> */}
     </div>
@@ -14,7 +14,7 @@ const Back = (props) => {
   // console.log(props.link);
   let btn1name = props.hosted ? "Visit Site" : "View Overview";
   return (
-    <div data-aos="flip-left" className={style.back}>
+    <div data-aos="flip-left" data-aos-duration="1000" className={style.back}>
       <h1>{props.name}</h1>
       <h3>{props.details}</h3>
       <div>

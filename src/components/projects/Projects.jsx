@@ -94,7 +94,7 @@ const Projects = () => {
   ];
   return (
     <div data-aos="fade-up" className={style.projectssection}>
-      <Heading>const projects;</Heading>
+      <Heading>let projects;</Heading>
       <div className={style.container}>
         {projectsList.map((object) => {
           return (

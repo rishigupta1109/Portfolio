@@ -146,11 +146,10 @@ svg{
         padding: 5vw;
     }
 }
-@media (max-width:436px) {
-   
-    .head{
-      font-size: 200% !important;
-    }
+@media (max-width:500px) {
+   .skillsection{
+    padding: 10vw;
+   }
     
 }
 .skillcircle{

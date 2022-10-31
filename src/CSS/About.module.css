@@ -190,13 +190,16 @@
 
 @media (max-width:500px) {
     .name{
-      font-size: 300% !important;
+      font-size: 4rem !important;
+      white-space: nowrap;
     }
     .statictxt,.dyanamictxts{
-      font-size: 115% !important;
+      white-space: nowrap;
+      font-size: 1.6rem !important;
     }
     .detail{
-      font-size: smaller !important;
+      line-break: anywhere;
+      font-size: 1rem !important;
     }
     .head{
       font-size: 200% !important;
@@ -207,9 +210,11 @@
   }
   .pic{
     /* border-radius: 100%; */
+    width: 91vw;
+    height: 91vw;
   }
   .profContainer{
-    width: 91vw;
+    /* width: 91vw; */
     border-radius: 100%;
   }
     

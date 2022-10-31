@@ -46,7 +46,7 @@ const Skills = () => {
   ];
   return (
     <div data-aos="fade-up" className={style.skillcontainer}>
-      <Heading>const skillsStack;</Heading>
+      <Heading>let skillsStack;</Heading>
       <div className={style.skillsection}>
         {arr.map((skill) => {
           return (

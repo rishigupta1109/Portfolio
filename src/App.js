@@ -15,7 +15,7 @@ const App = () => {
   let [pageNo, setpageNo] = useState(4);
   let [Loading, setLoading] = useState(true);
   let [LoadingPageNo, setLoadingPageNo] = useState(0);
-
+  let [mobilemenu, setmobilemenu] = useState(false);
   const changePage = (number) => {
     setLoadingPageNo(Number(number));
     setpageNo(5);
@@ -27,7 +27,12 @@ const App = () => {
   };
   return (
     <div className={style.App}>
-      <Navbar page={pageNo} changePage={changePage}></Navbar>
+      <Navbar
+        mobilemenu={mobilemenu}
+        setmobilemenu={setmobilemenu}
+        page={pageNo}
+        changePage={changePage}
+      ></Navbar>
       {Loading && <Backdrop></Backdrop>}
       {Loading && (
         <LoadingPage
@@ -35,10 +40,10 @@ const App = () => {
           page={LoadingPageNo}
         ></LoadingPage>
       )}
-      {pageNo === 0 && <About></About>}
-      {pageNo === 1 && <Skills></Skills>}
-      {pageNo === 2 && <Projects></Projects>}
-      {pageNo === 3 && <Contact></Contact>}
+      {pageNo === 0 && !mobilemenu && <About></About>}
+      {pageNo === 1 && !mobilemenu && <Skills></Skills>}
+      {pageNo === 2 && !mobilemenu && <Projects></Projects>}
+      {pageNo === 3 && !mobilemenu && <Contact></Contact>}
       {/* {!Loading&&<Footer></Footer>} */}
     </div>
   );

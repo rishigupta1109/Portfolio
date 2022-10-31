@@ -119,12 +119,12 @@
 }
 @media (max-width:500px) {
     h3{
-        font-size: smaller !important;
+        font-size: 1rem !important;
     }
     .greystrip{
-        width:30%;
-        left:70%;
-        height:8%;
+        width:35%;
+        left:65%;
+        height:7%;
     }
     @keyframes typewriter2 {
         0%{
@@ -133,6 +133,9 @@
         100%{
             width:20vw; 
         }
+    }
+    .loadingpage{
+        height: 40vh;
     }
     
 }
