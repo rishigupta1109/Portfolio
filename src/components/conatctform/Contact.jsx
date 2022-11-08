@@ -70,7 +70,7 @@ const Contact = () => {
           <div className={style.column}>
             <div
               className={style.row}
-              style={{ width: "100%", justifyContent: "space-evenly" }}
+              style={{ width: "100%", justifyContent: "space-between" }}
             >
               <h3>let name = </h3>{" "}
               <input
@@ -83,7 +83,7 @@ const Contact = () => {
             </div>
             <div
               className={style.row}
-              style={{ width: "100%", justifyContent: "space-evenly" }}
+              style={{ width: "100%", justifyContent: "space-between" }}
             >
               <h3>let email = </h3>{" "}
               <input
@@ -96,17 +96,16 @@ const Contact = () => {
             </div>
             <div
               className={style.row}
-              style={{ width: "100%", justifyContent: "space-evenly" }}
+              style={{ width: "100%", justifyContent: "space-between" }}
             >
               <h3>let message = </h3>{" "}
-              <textarea
+              <input
+                type="text"
                 value={message}
-                rows={5}
-                cols={20}
                 onChange={messageChangeHandler}
                 name="message"
                 id="message"
-              ></textarea>
+              ></input>
             </div>
           </div>
           <a target="_blank" className={style.NeonBtn} onClick={clickHandler}>

@@ -11,6 +11,7 @@
     background: black;
     padding: 5%;
     margin-top: 5%;
+    min-height: 80vh;
 }
 .skillimage{
     height:120px;

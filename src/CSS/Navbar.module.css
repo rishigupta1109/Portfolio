@@ -7,8 +7,6 @@
     background-color: black;
     padding: 0 50px;
     border-bottom: 1px outset rgba(128, 128, 128, 0.559) ;
- 
-
 }
 .navbar h2{
     transition: all 100ms ease-in-out;
@@ -82,8 +80,7 @@
 .mobilemenu h2{
     margin-left: 0;
     margin-right: 0;
-    font-size: 2rem;
-  
+    font-size: 1rem;
     text-align: center;
     
 }

@@ -3,6 +3,7 @@
 .img{
     height:100%;
     width:100%;
+    object-fit: contain;
 }
 .card{
     background-color: #00000083;
@@ -11,6 +12,7 @@
      box-shadow: 0 0px 20px rgba(255, 255, 255, 0.151);
     margin: 20px;
     border-radius: 10px;
+    overflow-y: hidden;
 }
 .back,.front{
     display: flex;
@@ -40,7 +42,7 @@ h1{
     letter-spacing: 4px;
     overflow: hidden;
     cursor: pointer;
-    box-shadow: 0 0 7px  rgba(255, 255, 255, 0.158);
+    /* box-shadow: 0 0 7px  rgba(255, 255, 255, 0.158); */
  }
  .NeonBtn:hover{
  background: white;
@@ -50,11 +52,14 @@ h1{
 
 @media (max-width:550px) {
     .front,.back{
-        width: 88vw;
-        height: 50vw;
+        width: 80vw;
+        height: 60vw;
+        /* height: 50vw; */
         padding: 0;
     }
     .card{
         padding: 0;
+        width: 100vw;
+        margin: 10px 0;
     }
 }
