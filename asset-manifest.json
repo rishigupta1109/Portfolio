@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.58481c33.chunk.css",
+    "main.css": "/Portfolio/static/css/main.1dec09a6.chunk.css",
     "main.js": "/Portfolio/static/js/main.613bdf13.chunk.js",
     "main.js.map": "/Portfolio/static/js/main.613bdf13.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.edb3110f.js",
@@ -12,11 +12,11 @@
     "static/js/3.97aa63a9.chunk.js.map": "/Portfolio/static/js/3.97aa63a9.chunk.js.map",
     "index.html": "/Portfolio/index.html",
     "static/css/2.7fc9bc2b.chunk.css.map": "/Portfolio/static/css/2.7fc9bc2b.chunk.css.map",
-    "static/css/main.58481c33.chunk.css.map": "/Portfolio/static/css/main.58481c33.chunk.css.map",
+    "static/css/main.1dec09a6.chunk.css.map": "/Portfolio/static/css/main.1dec09a6.chunk.css.map",
     "static/js/2.3a340971.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.3a340971.chunk.js.LICENSE.txt",
     "static/media/CSS3_logo.svg.4e67641b.png": "/Portfolio/static/media/CSS3_logo.svg.4e67641b.png",
     "static/media/HTML5_logo.svg.23784160.png": "/Portfolio/static/media/HTML5_logo.svg.23784160.png",
-    "static/media/R logo.ff10d6de.gif": "/Portfolio/static/media/R logo.ff10d6de.gif",
+    "static/media/About.module.css": "/Portfolio/static/media/logo-matrix.68f3cda5.png",
     "static/media/React-icon.svg.73ac128a.png": "/Portfolio/static/media/React-icon.svg.73ac128a.png",
     "static/media/Tictactoe.d5cc4409.PNG": "/Portfolio/static/media/Tictactoe.d5cc4409.PNG",
     "static/media/algorithmvisualiser.93917fa5.PNG": "/Portfolio/static/media/algorithmvisualiser.93917fa5.PNG",
@@ -31,7 +31,6 @@
     "static/media/icons8-nodejs-480.a4713ff2.png": "/Portfolio/static/media/icons8-nodejs-480.a4713ff2.png",
     "static/media/insta.0963b7a5.png": "/Portfolio/static/media/insta.0963b7a5.png",
     "static/media/js_icon.0eb84338.png": "/Portfolio/static/media/js_icon.0eb84338.png",
-    "static/media/About.module.css": "/Portfolio/static/media/profile_bnw.2f82ab15.png",
     "static/media/reactlogo.f3e576ba.jpg": "/Portfolio/static/media/reactlogo.f3e576ba.jpg",
     "static/media/rps.a4f71cf7.PNG": "/Portfolio/static/media/rps.a4f71cf7.PNG",
     "static/media/sudokuSolver.56f4c77b.jpg": "/Portfolio/static/media/sudokuSolver.56f4c77b.jpg",
@@ -41,7 +40,7 @@
     "static/js/runtime-main.edb3110f.js",
     "static/css/2.7fc9bc2b.chunk.css",
     "static/js/2.3a340971.chunk.js",
-    "static/css/main.58481c33.chunk.css",
+    "static/css/main.1dec09a6.chunk.css",
     "static/js/main.613bdf13.chunk.js"
   ]
 }
