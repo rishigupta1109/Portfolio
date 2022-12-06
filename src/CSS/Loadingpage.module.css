@@ -122,9 +122,9 @@
         font-size: 1rem !important;
     }
     .greystrip{
-        width:35%;
-        left:65%;
-        height:7%;
+        width:38%;
+        left:62%;
+        height:12%;
     }
     @keyframes typewriter2 {
         0%{
@@ -136,6 +136,11 @@
     }
     .loadingpage{
         height: 40vh;
+    }
+    .reactlogo{
+        height: 30px;
+        width: 30px;
+        
     }
     
 }
